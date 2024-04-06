@@ -1,9 +1,9 @@
 # Sketchy assignment
 ### Required python packages
-pandas
-pandasql
-jupyter
-matplotlib
+1. pandas
+2. pandasql
+3. jupyter
+4. plotly
 
 ### Problem Statement
 Sketchy is a visual learning company serving medical students among other programs. Some of the data engineering needs we are tasked with are supporting the internal teams with data driven analysis and reporting.Your task is to produce a report showing a penetration analysis of each medical school class. Penetration is defined as the number of paid subscribers enrolled in each school.
@@ -23,6 +23,7 @@ Your task is to show how you would ingest these files and join the data to facil
 4. Users can have multiple records in subscription table. (i.e user_id = 237187)
 5. During EDA, seeing that updated_at is the timestamp
 6. Some "FREE_TRIAL" rows go backwards in time
+7. "number of paid subscribers enrolled in each school" implies that if a user pays more than once, they only count as one paying subscriber.
 
 ### Deliverables
 1. Report of number of students enrolled in each university per year and if they are paying or not.
